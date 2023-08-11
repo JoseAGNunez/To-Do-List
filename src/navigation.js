@@ -1,3 +1,5 @@
+import { createInbox } from "./inbox";
+
 export function createNavigation(){
     const container = document.getElementById('container');
 
@@ -20,5 +22,13 @@ export function createNavigation(){
         li.className = 'navTabs';
         navigationUl.appendChild(li);
         li.textContent = `${navTab}`;
+    });
+};
+
+export function tabSwitching() {
+    const inboxTab = document.getElementById('inboxTab');
+    inboxTab.addEventListener('click', ()=>{
+        document.getElementById('content').remove();
+        createInbox();
     });
 };

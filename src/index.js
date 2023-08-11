@@ -1,8 +1,11 @@
 import './styles.css';
-import { createNavigation } from './navigation';
+import { createNavigation, tabSwitching } from './navigation';
+import { createInbox } from './inbox';
 
 const container = document.createElement('div');
 container.id = 'container';
 document.body.appendChild(container);
 
 createNavigation();
+tabSwitching();
+createInbox();

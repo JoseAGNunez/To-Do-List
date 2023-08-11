@@ -62,6 +62,10 @@ div#container {
     box-sizing: border-box;
 }
 
+div#content {
+    width: 100%;
+}
+
 /* Navigation */
 
 ul#navigationUl{
@@ -69,4 +73,16 @@ ul#navigationUl{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+/* Inbox */
+div#inbox {
+    width: 50%;
+    margin-left: 20rem;
+}
+
+header#inboxHeader {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
 }
