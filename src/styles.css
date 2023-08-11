@@ -48,3 +48,12 @@ table {
 }
 
 /* ____________________________________________________________________________________ */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div#container {
+    display: flex;
+}
