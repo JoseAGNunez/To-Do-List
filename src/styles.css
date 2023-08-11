@@ -52,8 +52,21 @@ table {
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 div#container {
     display: flex;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+ul#navigationUl{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
