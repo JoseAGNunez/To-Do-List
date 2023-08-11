@@ -1,0 +1,17 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "A dynamic and interactive todo list built with pure JavaScript as part of the curriculum for The Odin Project. Features: Create, read, update, and delete tasks. Organize tasks under different projects/categories. Persistent local storage to keep your tasks between sessions. Intuitive and responsive user interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
